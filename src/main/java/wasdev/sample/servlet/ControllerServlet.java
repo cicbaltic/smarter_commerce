@@ -12,24 +12,24 @@ import javax.servlet.http.HttpServletResponse;
 /**
  * Servlet implementation class ControllerServlet
  */
-@WebServlet(name = "ControllerServlet.java", urlPatterns = {"/", "/home"})
+@WebServlet(name = "ControllerServlet", urlPatterns = "/home")
 public class ControllerServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		User user = new User();
-		user.set_name("Liudas");
-		user.set_email("mok@info.lt");
+		/*User user = new User();
+		user.set_name("Guest");
+		user.set_email("a@b.c");*/
 		
 		RequestDispatcher dispatcher = getServletContext().getRequestDispatcher("/index.jsp");
-		request.setAttribute("user", user);;
+		//request.setAttribute("user", user);
 		dispatcher.forward(request, response);
 	}
 
 	
-	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+	/*protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
 		doGet(request, response);
-	}
+	}*/
 
 }
