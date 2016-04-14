@@ -1,3 +1,3 @@
-/home/liudas/workspace/SmarterCommerce/src/main/java/wasdev/sample/servlet/ControllerServlet.java
-/home/liudas/workspace/SmarterCommerce/src/main/java/wasdev/sample/servlet/User.java
-/home/liudas/workspace/SmarterCommerce/src/main/java/wasdev/sample/servlet/SimpleServlet.java
+/home/liudas/workspace/SmarterCommerce/src/main/java/com/smarterCommerce/rest/User.java
+/home/liudas/workspace/SmarterCommerce/src/main/java/com/smarterCommerce/controller/LoginController.java
+/home/liudas/workspace/SmarterCommerce/src/main/java/com/smarterCommerce/rest/ControllerServlet.java

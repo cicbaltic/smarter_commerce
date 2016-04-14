@@ -7,8 +7,8 @@
 
 	<reload-interval value="3"/>
 	
-	<context-root uri="SmarterCommerce"/>
-	<enable-directory-browsing value="true"/>
+	<context-root uri="/"/>
+	<enable-directory-browsing value="false"/>
 	<enable-file-serving value="true"/>
 	<enable-reloading value="true"/>
 	<enable-serving-servlets-by-class-name value="false" />
