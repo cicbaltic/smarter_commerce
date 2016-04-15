@@ -1,3 +1,4 @@
-/home/liudas/workspace/SmarterCommerce/src/main/java/com/smarterCommerce/rest/User.java
-/home/liudas/workspace/SmarterCommerce/src/main/java/com/smarterCommerce/controller/LoginController.java
+/home/liudas/workspace/SmarterCommerce/src/main/java/com/smarterCommerce/rest/LoginService.java
+/home/liudas/workspace/SmarterCommerce/src/main/java/com/smarterCommerce/controller/HomeController.java
 /home/liudas/workspace/SmarterCommerce/src/main/java/com/smarterCommerce/rest/ControllerServlet.java
+/home/liudas/workspace/SmarterCommerce/src/main/java/com/smarterCommerce/pojo/User.java

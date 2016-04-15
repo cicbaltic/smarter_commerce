@@ -1,3 +1,4 @@
-com/smarterCommerce/rest/User.class
+com/smarterCommerce/rest/LoginService.class
 com/smarterCommerce/rest/ControllerServlet.class
-com/smarterCommerce/controller/LoginController.class
+com/smarterCommerce/pojo/User.class
+com/smarterCommerce/controller/HomeController.class

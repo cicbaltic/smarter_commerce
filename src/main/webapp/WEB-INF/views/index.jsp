@@ -1,6 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
-<%@ page import="com.smarterCommerce.rest.User" %>
+<%@ page import="com.smarterCommerce.pojo.User" %>
 <! DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
@@ -11,9 +11,9 @@
     <meta name="author" content="">
     <title>SmarterCommerce</title>
     <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/resources/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
     <!-- Custom CSS -->
-     <link href="css/shop-homepage.css" rel="stylesheet" type="text/css"/> 
+     <link href="/resources/css/shop-homepage.css" rel="stylesheet" type="text/css"/> 
     
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -209,10 +209,10 @@
     <!-- /.container -->
 
     <!-- jQuery -->
-    <script src="js/jquery.js"></script>
+    <script src="/resources/js/jquery.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
+    <script src="/resources/js/bootstrap.min.js"></script>
 
 </body>
 </html>

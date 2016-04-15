@@ -24,6 +24,14 @@
                         <a href="#">Contact</a>
                     </li>
                 </ul>
+                
+                    <p>${errorMessage}</p>
+                    <form action="/home" method="POST">                    
+                        Name : <input name="name" type="text"/>
+                        Password: <input name="password" type="password" />
+                        <input type="submit" />
+                    </form>
+            
             </div>
             <!-- /.navbar-collapse -->
         </div>
