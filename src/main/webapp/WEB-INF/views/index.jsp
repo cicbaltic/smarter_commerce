@@ -1,7 +1,8 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
-<%@ page import="com.smarterCommerce.pojo.User" %>
-<! DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<%@ page import="com.smartercommerce.pojo.User" %>
+<%@ page session="false" %> 
+ <!DOCTYPE html>
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
@@ -11,9 +12,9 @@
     <meta name="author" content="">
     <title>SmarterCommerce</title>
     <!-- Bootstrap Core CSS -->
-    <link href="/resources/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    <link href="resources/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
     <!-- Custom CSS -->
-     <link href="/resources/css/shop-homepage.css" rel="stylesheet" type="text/css"/> 
+     <link href="resources/css/shop-homepage.css" rel="stylesheet" type="text/css"/> 
     
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -31,7 +32,7 @@
 	
     <!-- Page Content -->
     <div class="container">
-        <h2>${user._name}</h2>
+        <h2></h2>
         <div class="row">
 
             <!-- Left navigation -->
@@ -50,13 +51,13 @@
                             </ol>
                             <div class="carousel-inner">
                                 <div class="item active">
-                                    <img class="slide-image" src="http://placehold.it/800x300" alt="">
+                                    <img class="slide-image" src="/resources/images/800x300.png" alt="">
                                 </div>
                                 <div class="item">
-                                    <img class="slide-image" src="http://placehold.it/800x300" alt="">
+                                    <img class="slide-image" src="/resources/images/800x300.png" alt="">
                                 </div>
                                 <div class="item">
-                                    <img class="slide-image" src="http://placehold.it/800x300" alt="">
+                                    <img class="slide-image" src="/resources/images/800x300.png" alt="">
                                 </div>
                             </div>
                             <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
@@ -74,7 +75,7 @@
 
                     <div class="col-sm-4 col-lg-4 col-md-4">
                         <div class="thumbnail">
-                            <img src="http://placehold.it/320x150" alt="">
+                            <img src="/resources/images/320x150.png" alt="">
                             <div class="caption">
                                 <h4 class="pull-right">$24.99</h4>
                                 <h4><a href="#">First Product</a>
@@ -96,7 +97,7 @@
 
                     <div class="col-sm-4 col-lg-4 col-md-4">
                         <div class="thumbnail">
-                            <img src="http://placehold.it/320x150" alt="">
+                            <img src="/resources/images/320x150.png" alt="">
                             <div class="caption">
                                 <h4 class="pull-right">$64.99</h4>
                                 <h4><a href="#">Second Product</a>
@@ -118,7 +119,7 @@
 
                     <div class="col-sm-4 col-lg-4 col-md-4">
                         <div class="thumbnail">
-                            <img src="http://placehold.it/320x150" alt="">
+                            <img src="/resources/images/320x150.png" alt="">
                             <div class="caption">
                                 <h4 class="pull-right">$74.99</h4>
                                 <h4><a href="#">Third Product</a>
@@ -140,7 +141,7 @@
 
                     <div class="col-sm-4 col-lg-4 col-md-4">
                         <div class="thumbnail">
-                            <img src="http://placehold.it/320x150" alt="">
+                            <img src="/resources/images/320x150.png" alt="">
                             <div class="caption">
                                 <h4 class="pull-right">$84.99</h4>
                                 <h4><a href="#">Fourth Product</a>
@@ -162,7 +163,7 @@
 
                     <div class="col-sm-4 col-lg-4 col-md-4">
                         <div class="thumbnail">
-                            <img src="http://placehold.it/320x150" alt="">
+                            <img src="/resources/images/320x150.png" alt="">
                             <div class="caption">
                                 <h4 class="pull-right">$94.99</h4>
                                 <h4><a href="#">Fifth Product</a>

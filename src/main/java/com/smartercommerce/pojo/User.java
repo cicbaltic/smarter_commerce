@@ -1,0 +1,24 @@
+package com.smartercommerce.pojo;
+
+public class User {
+
+	private String _name;
+	private String _email;
+	
+	public String getName() {
+		return _name;
+	}
+	public void set_name(String _name) {
+		this._name = _name;
+	}
+	public String getEmail() {
+		return _email;
+	}
+	public void set_email(String _email) {
+		this._email = _email;
+	}
+
+	
+
+	
+}

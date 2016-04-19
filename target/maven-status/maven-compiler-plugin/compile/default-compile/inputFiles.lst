@@ -1,4 +1,13 @@
-/home/liudas/workspace/SmarterCommerce/src/main/java/com/smarterCommerce/rest/LoginService.java
-/home/liudas/workspace/SmarterCommerce/src/main/java/com/smarterCommerce/controller/HomeController.java
-/home/liudas/workspace/SmarterCommerce/src/main/java/com/smarterCommerce/rest/ControllerServlet.java
-/home/liudas/workspace/SmarterCommerce/src/main/java/com/smarterCommerce/pojo/User.java
+/home/liudas/workspace/SmarterCommerce/src/main/java/com/smartercommerce/view/PhoneConstraintValidator.java
+/home/liudas/workspace/SmarterCommerce/src/main/java/com/smartercommerce/config/WebConfig.java
+/home/liudas/workspace/SmarterCommerce/src/main/java/com/smartercommerce/controller/HomeController.java
+/home/liudas/workspace/SmarterCommerce/src/main/java/com/smartercommerce/controller/TestController.java
+/home/liudas/workspace/SmarterCommerce/src/main/java/com/smartercommerce/pojo/Usergroups.java
+/home/liudas/workspace/SmarterCommerce/src/main/java/com/smartercommerce/config/WebAppInitializer.java
+/home/liudas/workspace/SmarterCommerce/src/main/java/com/smartercommerce/controller/HelloController.java
+/home/liudas/workspace/SmarterCommerce/src/main/java/com/smartercommerce/controller/UsergroupsController.java
+/home/liudas/workspace/SmarterCommerce/src/main/java/com/smartercommerce/controller/UsersReportController.java
+/home/liudas/workspace/SmarterCommerce/src/main/java/com/smartercommerce/view/Phone.java
+/home/liudas/workspace/SmarterCommerce/src/main/java/com/smartercommerce/rest/ControllerServlet.java
+/home/liudas/workspace/SmarterCommerce/src/main/java/com/smartercommerce/pojo/User.java
+/home/liudas/workspace/SmarterCommerce/src/main/java/com/smartercommerce/rest/LoginService.java

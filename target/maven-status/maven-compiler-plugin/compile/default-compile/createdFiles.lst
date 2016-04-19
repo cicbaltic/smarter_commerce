@@ -1,4 +1,13 @@
-com/smarterCommerce/rest/LoginService.class
-com/smarterCommerce/rest/ControllerServlet.class
-com/smarterCommerce/pojo/User.class
-com/smarterCommerce/controller/HomeController.class
+com/smartercommerce/controller/HelloController.class
+com/smartercommerce/view/Phone.class
+com/smartercommerce/pojo/User.class
+com/smartercommerce/view/PhoneConstraintValidator.class
+com/smartercommerce/rest/ControllerServlet.class
+com/smartercommerce/pojo/Usergroups.class
+com/smartercommerce/config/WebAppInitializer.class
+com/smartercommerce/rest/LoginService.class
+com/smartercommerce/controller/HomeController.class
+com/smartercommerce/controller/UsersReportController.class
+com/smartercommerce/controller/TestController.class
+com/smartercommerce/config/WebConfig.class
+com/smartercommerce/controller/UsergroupsController.class
