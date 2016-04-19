@@ -15,6 +15,11 @@ public class HomeController {
 	@Autowired
 	LoginService service;
 
+	@RequestMapping(value = "/", method = RequestMethod.GET)
+	public String redirectToHomePage() {
+
+		return "redirect:home";
+	}
 	@RequestMapping(value = "/home", method = RequestMethod.GET)
 	public String showHomePage() {
 

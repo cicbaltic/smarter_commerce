@@ -8,6 +8,7 @@
 </head>
 <body>
 <h1>Hello ${user.name}!</h1>
+<h1>Usergroups email ${usergroups.DL}!</h1>
 <a href="user"> Add User >> </a>
 <br/>
 <a href="usergroups"> Add User group </a>
