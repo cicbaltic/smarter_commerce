@@ -27,8 +27,8 @@ public class ControllerServlet extends HttpServlet {
 
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		User user = new User();
-		user.set_name("Guest");
-		user.set_email("a@b.c");
+		user.setName("Guest");
+		//user.setEmail("a@b.c");
 		
 		RequestDispatcher dispatcher = getServletContext().getRequestDispatcher("/_header.jsp");
 		request.setAttribute("user", user);

@@ -23,32 +23,6 @@ import org.springframework.web.servlet.view.InternalResourceViewResolver;
 
 public class WebConfig extends WebMvcConfigurerAdapter{
 	
-	// Loads all messages beans properties
-	@Bean
-	public MessageSource messageSource(){
-		ResourceBundleMessageSource messageSource = new ResourceBundleMessageSource(); 
-		messageSource.setBasename("messages");
-		return messageSource;
-	}
-	
-	//Looks through the session and checks if there is a localeResolver assign to our session, sets default language
-	@Bean
-	public LocaleResolver localeResolver() {
-		SessionLocaleResolver resolver = new SessionLocaleResolver();
-		resolver.setDefaultLocale(Locale.ENGLISH);
-		return resolver;	
-	}
-	//interpretate urls
-	@Override
-	public void addInterceptors(InterceptorRegistry registry){
-		LocaleChangeInterceptor changeInterceptor = new LocaleChangeInterceptor();
-		changeInterceptor.setParamName("language");
-		registry.addInterceptor(changeInterceptor);
-		
-	}
-	
-	
-	
 	@Bean
 	public InternalResourceViewResolver getInternalResourceViewResolver() {
 		InternalResourceViewResolver resolver = new InternalResourceViewResolver();
@@ -63,4 +37,28 @@ public class WebConfig extends WebMvcConfigurerAdapter{
 			.addResourceHandler("/resources/**")
 			.addResourceLocations("/resources/");
 	}
+	// <<<<<<<<<INTERNATIONALIZATION PART STARTS>>>>>>>>>
+		// Loads all messages beans properties
+		@Bean
+		public MessageSource messageSource(){
+			ResourceBundleMessageSource messageSource = new ResourceBundleMessageSource(); 
+			messageSource.setBasename("messages");
+			return messageSource;
+		}
+		
+		//Looks through the session and checks if there is a localeResolver assign to our session, sets default language
+		@Bean
+		public LocaleResolver localeResolver() {
+			SessionLocaleResolver resolver = new SessionLocaleResolver();
+			resolver.setDefaultLocale(Locale.ENGLISH);
+			return resolver;	
+		}
+		//interpretate urls
+		@Override
+		public void addInterceptors(InterceptorRegistry registry){
+			LocaleChangeInterceptor changeInterceptor = new LocaleChangeInterceptor();
+			changeInterceptor.setParamName("language");
+			registry.addInterceptor(changeInterceptor);
+		}
+		// <<<<<<<<<INTERNATIONALIZATION PART ENDS>>>>>>>>>
 }

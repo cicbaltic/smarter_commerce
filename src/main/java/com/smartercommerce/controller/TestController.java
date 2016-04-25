@@ -16,8 +16,8 @@ public class TestController {
 	@RequestMapping(value="/user", method = RequestMethod.GET)
 	public String displayUserGroup(Model model){
 		User user = new User();
-		user.set_name("JAva User Group");
-		user.set_email("ASDASDSAD");
+		user.setName("JAva User Group");
+		
 		model.addAttribute("user", user);
 		return "user";
 	}
