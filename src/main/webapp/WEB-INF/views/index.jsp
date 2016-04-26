@@ -76,30 +76,29 @@
 
                 <div class="row">
                 <c:forEach var="item" items="${items}">
-
-                    <div class="col-sm-4 col-lg-4 col-md-4">
-                        <div class="thumbnail">
-                            <img src="${item.image_url}" alt="">
-                            <div class="caption">
-                                <h4 class="pull-right">${item.name}</h4>
-                                <h4><a href="#">${item.price} €</a>
-                                </h4>
-                                <p><a target="_blank" href="http://www.bootsnipp.com">Bootsnipp - http://bootsnipp.com</a>.</p>
-                            </div>
-                            <div class="ratings">
-                                <p class="pull-right">15 reviews</p>
-                                <p>
-                                    <span class="glyphicon glyphicon-star"></span>
-                                    <span class="glyphicon glyphicon-star"></span>
-                                    <span class="glyphicon glyphicon-star"></span>
-                                    <span class="glyphicon glyphicon-star"></span>
-                                    <span class="glyphicon glyphicon-star"></span>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
+					
+	                    <div class="col-sm-4 col-lg-4 col-md-4">
+	                        <div class="thumbnail">
+	                            <a href='/${item.category}+${item.id}'><img src="${item.image_url}" alt=""></a>
+	                            <div class="caption">
+	                                <h4 class="pull-right">${item.name}</h4>
+	                                <h4><a href="#">${item.price} €</a>
+	                                </h4>
+	                                <p><a target="_blank" href="http://www.bootsnipp.com">Bootsnipp - http://bootsnipp.com</a>.</p>
+	                            </div>
+	                            <div class="ratings">
+	                                <p class="pull-right">15 reviews</p>
+	                                <p>
+	                                    <span class="glyphicon glyphicon-star"></span>
+	                                    <span class="glyphicon glyphicon-star"></span>
+	                                    <span class="glyphicon glyphicon-star"></span>
+	                                    <span class="glyphicon glyphicon-star"></span>
+	                                    <span class="glyphicon glyphicon-star"></span>
+	                                </p>
+	                            </div>
+	                        </div>
+	                     </div>
 					</c:forEach>
-
                     <div class="col-sm-4 col-lg-4 col-md-4">
                         <h4><a href="#">Like this template?</a>
                         </h4>

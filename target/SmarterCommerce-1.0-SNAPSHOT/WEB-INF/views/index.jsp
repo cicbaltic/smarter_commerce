@@ -54,13 +54,13 @@
                             </ol>
                             <div class="carousel-inner">
                                 <div class="item active">
-                                    <img class="slide-image" src="/resources/images/800x300.png" alt="">
+                                    <img class="slide-image" src="/resources/images/bikes/index.jpeg" alt="">
                                 </div>
                                 <div class="item">
-                                    <img class="slide-image" src="/resources/images/800x300.png" alt="">
+                                    <img class="slide-image" src="/resources/images/bikes/carbon_comp.jpg" alt="">
                                 </div>
                                 <div class="item">
-                                    <img class="slide-image" src="/resources/images/800x300.png" alt="">
+                                    <img class="slide-image" src="/resources/images/bikes/806_top01.jpg" alt="">
                                 </div>
                             </div>
                             <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
@@ -75,31 +75,30 @@
                 </div>
 
                 <div class="row">
-                <c:forEach var="order" items="${orders}">
-
-                    <div class="col-sm-4 col-lg-4 col-md-4">
-                        <div class="thumbnail">
-                            <img src="/resources/images/320x150.png" alt="">
-                            <div class="caption">
-                                <h4 class="pull-right">${order.address}</h4>
-                                <h4><a href="#">${order.itemsQuantity}</a>
-                                </h4>
-                                <p><a target="_blank" href="http://www.bootsnipp.com">Bootsnipp - http://bootsnipp.com</a>.</p>
-                            </div>
-                            <div class="ratings">
-                                <p class="pull-right">15 reviews</p>
-                                <p>
-                                    <span class="glyphicon glyphicon-star"></span>
-                                    <span class="glyphicon glyphicon-star"></span>
-                                    <span class="glyphicon glyphicon-star"></span>
-                                    <span class="glyphicon glyphicon-star"></span>
-                                    <span class="glyphicon glyphicon-star"></span>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
+                <c:forEach var="item" items="${items}">
+					
+	                    <div class="col-sm-4 col-lg-4 col-md-4">
+	                        <div class="thumbnail">
+	                            <a href='/${item.category}+${item.id}' data-toggle="modal" data-target="#myModal"><img src="${item.image_url}" alt=""></a>
+	                            <div class="caption">
+	                                <h4 class="pull-right">${item.name}</h4>
+	                                <h4><a href="#">${item.price} €</a>
+	                                </h4>
+	                                <p><a target="_blank" href="http://www.bootsnipp.com">Bootsnipp - http://bootsnipp.com</a>.</p>
+	                            </div>
+	                            <div class="ratings">
+	                                <p class="pull-right">15 reviews</p>
+	                                <p>
+	                                    <span class="glyphicon glyphicon-star"></span>
+	                                    <span class="glyphicon glyphicon-star"></span>
+	                                    <span class="glyphicon glyphicon-star"></span>
+	                                    <span class="glyphicon glyphicon-star"></span>
+	                                    <span class="glyphicon glyphicon-star"></span>
+	                                </p>
+	                            </div>
+	                        </div>
+	                     </div>
 					</c:forEach>
-
                     <div class="col-sm-4 col-lg-4 col-md-4">
                         <h4><a href="#">Like this template?</a>
                         </h4>

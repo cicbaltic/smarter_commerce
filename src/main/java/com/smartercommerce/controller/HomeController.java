@@ -81,6 +81,12 @@ public class HomeController {
         model.addAttribute("items", items);
         return "index";
     }
+    @RequestMapping(value= {"/{category}+{id}" }, method = RequestMethod.GET)
+    public String showItem(@PathVariable String category, int id, ModelMap model){
+    	Item item = itemService.findById(id);
+    	model.addAttribute("item", item);
+    	return "itemPage";
+    }
 	
 	@RequestMapping(value="/about", method=RequestMethod.GET)
 	public String showAboutPage(){

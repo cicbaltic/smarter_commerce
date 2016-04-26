@@ -3,6 +3,6 @@ applications:
   memory: 512M
   instances: 1
   domain: mybluemix.net
-  name: tsfs
-  host: tsfs
+  name: smarterCommerce
+  host: smarterCommerce
   disk_quota: 1024M
